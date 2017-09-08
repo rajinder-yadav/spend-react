@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+/* Main CSS */
 .mt-6 {
   margin-top: 5rem;
 }
@@ -12,4 +13,10 @@ body {
 .page-color {
   background-color: #052b47;
   color: white;
+}
+.navbar-gap {
+  margin-top: 4rem;
+}
+.icon-gold {
+  color: #f7b52a;
 }
