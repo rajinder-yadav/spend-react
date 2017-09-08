@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.mt-6 {
+  margin-top: 5rem;
+}
+.text-soft {
+  color: #aaa;
+}
+.page-color {
+  background-color: #052b47;
+  color: white;
+}
