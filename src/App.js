@@ -9,7 +9,6 @@ import 'animate.css/animate.min.css';
 import './App.css';
 import { Main } from './Main';
 import { MenuBar } from './components/common/MenuBar';
-import { Footer } from './components/common/Footer';
 import { HowAndWhy } from './components/HowAndWhy';
 import { Pricing } from './components/Pricing';
 import { Help } from './components/Help';
