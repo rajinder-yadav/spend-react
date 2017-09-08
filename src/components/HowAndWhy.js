@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {KeyFeaturePage} from './KeyFeaturePage';
 import {CommonQuestionPage} from './CommonQuestionPage';
+import { Footer } from './common/Footer';
 
 export function HowAndWhy() {
   return (
@@ -16,17 +17,17 @@ export function HowAndWhy() {
         </div>
         <div className="row mt-5">
           <div className="col-12 col-sm-4">
-            <p className="text-center"><i className="fa fa-bolt display-4 icon-gold" aria-hidden="true"></i></p>
+            <p className="text-center"><i className="fa fa-bolt fa-4x icon-gold" aria-hidden="true"></i></p>
             <p className="h4 text-center">Super efficent</p>
             <p className="lead text-center">A real-time company offering a first-class integration with your accounting software.</p>
           </div>
           <div className="col-12 col-sm-4">
-            <p className="text-center"><i className="fa fa-check display-4 icon-gold" aria-hidden="true"></i></p>
+            <p className="text-center"><i className="fa fa-check fa-4x icon-gold" aria-hidden="true"></i></p>
             <p className="h4 text-center">You're in control</p>
             <p className="lead text-center">Simple pricing, with no hidden fees or nasty tie-ins. Plus a no obligation free trial.</p>
           </div>
           <div className="col-12 col-sm-4">
-            <p className="text-center"><i className="fa fa-plane display-4 icon-gold" aria-hidden="true"></i></p>
+            <p className="text-center"><i className="fa fa-plane fa-4x icon-gold" aria-hidden="true"></i></p>
             <p className="h4 text-center">Travel friendly</p>
             <p className="lead text-center">No transaction fee's and free to use abroad with 0% markup on foreign purchases.</p>
           </div>
@@ -87,6 +88,9 @@ export function HowAndWhy() {
             <img className="img-fluid d-block mx-auto pt-5" src={require("../images/how-why/spend-robot-card.png")} alt="" />
           </div>
         </div>
+      </div>
+      <div className="mt-5">
+        <Footer></Footer>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import {CommonQuestionPage} from './CommonQuestionPage';
+import { Footer } from './common/Footer';
 
 export function Pricing() {
   return (
@@ -91,6 +92,9 @@ export function Pricing() {
             <p className="text-center mt-4"><button className="btn btn-primary">Vist Our Portal</button></p>
           </div>
         </div>
+      </div>
+      <div className="mt-5">
+        <Footer></Footer>
       </div>
     </div>
   );

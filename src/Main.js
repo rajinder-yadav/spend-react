@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { KeyFeaturePage } from './components/KeyFeaturePage';
+import { Footer } from './components/common/Footer';
 
 export class Main extends React.Component {
   render() {
@@ -53,22 +54,22 @@ export class Main extends React.Component {
         <div className="container-fluid">
           <div className="row page-color py-5 my-5">
             <div className="col">
-              <p className="text-center display-4"><i className="fa fa-bar-chart"></i></p>
+              <p className="text-center"><i className="fa fa-bar-chart fa-4x"></i></p>
               <p className="text-center h3">$7000</p>
               <p className="text-center">per year in expenses for the average expense filer</p>
             </div>
             <div className="col">
-              <p className="text-center display-4"><i className="fa fa-window-close"></i></p>
+              <p className="text-center"><i className="fa fa-window-close fa-4x"></i></p>
               <p className="text-center h3">75%</p>
               <p className="text-center">of employees admit filing an incorrect expense</p>
             </div>
             <div className="col">
-              <p className="text-center display-4"><i className="fa fa-clock-o"></i></p>
+              <p className="text-center"><i className="fa fa-clock-o fa-4x"></i></p>
               <p className="text-center h3">23%</p>
               <p className="text-center">of salespeople spend over 3 hours per month filing expenses</p>
             </div>
             <div className="col">
-              <p className="text-center display-4"><i className="fa fa-plane"></i></p>
+              <p className="text-center"><i className="fa fa-plane fa-4x"></i></p>
               <p className="text-center h3">15%</p>
               <p className="text-center">of average operating expenses are spent on travel &amp; entertainment</p>
             </div>
@@ -84,7 +85,10 @@ export class Main extends React.Component {
             </div>
           </div>
         </div>
-    </div>
+        <div className="mt-5">
+          <Footer></Footer>
+        </div>
+      </div>
     );
   }
 }

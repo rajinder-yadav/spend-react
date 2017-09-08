@@ -1,4 +1,5 @@
 import React from 'react';
+import { Footer } from './common/Footer';
 import './Help.css';
 
 export function Help() {
@@ -9,10 +10,10 @@ export function Help() {
           <p className="lead mb-4">Advice and answers from the Spend! team.</p>
           <div className="input-group">
             <input className="w-100 p-3 bg-secondary text-light" placeholder="Search for answers..." type="text" />
-            <span className="input-group-addon" id="basic-addon2"><i className="fa fa-search display-4"></i></span>
+            <span className="input-group-addon"><i className="fa fa-search fa-4x"></i></span>
           </div>
       </div>
-      <div className="body-color">
+      <div className="body-color mb-10">
         <div className="container">
           <div className="row">
             <div className="col mt-5">
@@ -51,6 +52,9 @@ export function Help() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="fixed-bottom">
+        <Footer></Footer>
       </div>
     </div>
   );
