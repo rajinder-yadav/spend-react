@@ -86,7 +86,7 @@ export function Pricing() {
         </div>
         <div className="row my-5">
           <div className="col">
-            <img className="img-fluid d-block mx-auto mb-3" src={require("../images/how-why/talk-bubbles.png")} alt="" />
+            <img className="img-fluid d-block mx-auto mb-3 w-25" src={require("../images/how-why/talk-bubbles.svg")} alt="" />
             <p className="h3 text-center">Need more help?</p>
             <p className="text-center">Find handy guides at help.spend.io. Contact us via our live support (bottom right) or via email at spend.io/contact</p>
             <p className="text-center mt-4"><button className="btn btn-primary">Vist Our Portal</button></p>

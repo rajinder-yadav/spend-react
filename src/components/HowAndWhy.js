@@ -12,7 +12,7 @@ export function HowAndWhy() {
           <div className="col">
             <p className="display-4 text-center animated slideInDown">How Spend! works for you</p>
             <p className="lead text-center">Remove the pain of recording and managing your expenses. Forget about filling in forms, dealing with receipts, and not knowing what is being spent. Simply pay for your expenses with your Spend! card and let Spend! do the rest.</p>
-            <img className="img-fluid d-block mx-auto animated slideInUp" src={require("../images/spend-flow.png")} alt="" />
+            <img className="img-fluid d-block mx-auto animated slideInUp" src={require("../images/spend-flow.svg")} alt="" />
           </div>
         </div>
         <div className="row mt-5">
@@ -36,9 +36,9 @@ export function HowAndWhy() {
       <div className="page-color py-5 mt-5">
         <div className="row">
           <div className="col">
-            <img className="w-50 d-block mx-auto my-5" src={require("../images/how-why/spend-robot.png")} alt="" />
+            <img className="w-50 d-block mx-auto my-5" src={require("../images/how-why/spend-robot.svg")} alt="" />
             <p className="display-4 text-center mb-4">We'll do the heavy lifting</p>
-            <p className="lead text-center">With Spend!, the transaction information is instantly captured in the app, ready to review and submit. Everything is automatically synced to your accounting package, saving time, removing errors and reducing hassle, so that you can get on with doing the work that really matters.</p>
+            <p className="lead text-center px-4">With Spend!, the transaction information is instantly captured in the app, ready to review and submit. Everything is automatically synced to your accounting package, saving time, removing errors and reducing hassle, so that you can get on with doing the work that really matters.</p>
             <p className="text-center mt-3"><button className="btn btn-primary">Vist Our Help Portal</button></p>
           </div>
         </div>
@@ -51,12 +51,12 @@ export function HowAndWhy() {
             <p className="lead">No more hours spent on manual form filling and sky-high piles of receipts. Our easy expensing solution works with a payment card, mobile app and online dashboard to save you time and offer closer control on business spending. Travel smart with Spend's 0% foreign exchange markup for money-saving spending anywhere in the world.</p>
           </div>
           <div className="col-4">
-            <img className="img-fluid" src={require("../images/how-why/mobile-1.png")} alt="" />
+            <img className="img-fluid" src={require("../images/how-why/mobile-1.svg")} alt="" />
           </div>
         </div>
         <div className="row py-5">
           <div className="col-4">
-            <img className="img-fluid" src={require("../images/how-why/mobile-2.png")} alt="" />
+            <img className="img-fluid" src={require("../images/how-why/mobile-2.svg")} alt="" />
           </div>
           <div className="col-8">
             <p className="display-4">Increase business efficiency</p>
@@ -71,7 +71,7 @@ export function HowAndWhy() {
         <div className="row py-5">
           <div className="col">
             <p className="display-4 text-center">What people are saying!</p>
-            <img className="img-fluid d-block mx-auto" src={require("../images/how-why/talk-bubbles.png")} alt="" />
+            <img className="img-fluid d-block mx-auto w-25" src={require("../images/how-why/talk-bubbles.svg")} alt="" />
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ export function HowAndWhy() {
 
             <p className="lead text-center">Try Spend! for free and enjoy a lifetime of easy expenses</p>
             <p className="text-center"><Link className="btn btn-primary" to="/free-trial">Start You Free Trail</Link></p>
-            <img className="img-fluid d-block mx-auto pt-5" src={require("../images/how-why/spend-robot-card.png")} alt="" />
+            <img className="img-fluid d-block mx-auto pt-5 w-50" src={require("../images/how-why/spend-robot-card.svg")} alt="" />
           </div>
         </div>
       </div>

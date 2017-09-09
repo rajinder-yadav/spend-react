@@ -15,7 +15,7 @@ export class Main extends React.Component {
               <Link className="btn btn-success animated slideInLeft" to="/free-trial">Get Started</Link>
             </div>
             <div className="col-md col-sm-12">
-              <img className="img-fluid pr-3 animated slideInRight" src={require("./images/landing-main.png")} alt="" />
+              <img className="img-fluid pr-3 animated slideInRight" src={require("./images/splash.svg")} alt="" />
             </div>
           </div>
           <div className="row mt-6">
@@ -31,19 +31,19 @@ export class Main extends React.Component {
           </div>
           <div className="row">
             <div className="col-md col-sm-12">
-              <img className="img-fluid w-75 mb-3 mx-auto d-block" src={require("./images/business-icon.png")} alt="" />
+              <img className="img-fluid w-75 mb-3 mx-auto d-block" src={require("./images/business-icon.svg")} alt="" />
               <h4 className="text-center">Businesses</h4>
               <p className="mt-3 text-center">No matter the size of your business, improving the expense process saves time and money. You can easily issue expense
                 cards and manage everything in one place.</p>
             </div>
             <div className="col-md col-sm-12">
-              <img className="img-fluid w-75 mb-3 mx-auto d-block" src={require("./images/accountant-icon.png")} alt="" />
+              <img className="img-fluid w-75 mb-3 mx-auto d-block" src={require("./images/accountant-icon.svg")} alt="" />
               <h4 className="text-center">Accountants &amp; Bookkeepers</h4>
               <p className="mt-3 text-center">Spend helps accountants and bookkeepers by reducing errors and providing seamless real-time recording of expenses into
                 existing accounting packages.</p>
             </div>
             <div className="col-md col-sm-12">
-              <img className="img-fluid w-75 mb-3 mx-auto d-block" src={require("./images/personal-icon.png")} alt="" />
+              <img className="img-fluid w-75 mb-3 mx-auto d-block" src={require("./images/personal-icon.svg")} alt="" />
               <h4 className="text-center">Personal &amp; Families</h4>
               <p className="mt-3 text-center">Individuals can take control of their own and family spending. With better management over their spending, Spend! is
                 also the perfect zero-fee travel card.</p>
@@ -76,10 +76,10 @@ export class Main extends React.Component {
           </div>
           <div className="row mt-5 mb-5">
             <div className="col-4">
-              <img className="img-fluid w-75" src={require("./images/mobile-robot.png")} alt="" />
+              <img className="img-fluid w-75" src={require("./images/spend-app.svg")} alt="" />
             </div>
             <div className="col-8">
-              <p className="display-4">Simplify expenses and take control</p>
+              <p className="display-4">Simplify Expenses<br/>Take Control</p>
               <p>Take expense automation further with Expend’s combination of app, card and online dashboard. Expend efficiently records your expenses and automatically syncs them with your accounting package.</p>
               <p>No forms or piles of receipts. With closer control over business spending, Expend’s easy solution transforms the frustrating expense claim process and improves your company’s financial efficiency.</p>
             </div>
