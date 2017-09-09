@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.30e28e5a.css",
   "main.css.map": "static/css/main.30e28e5a.css.map",
-  "main.js": "static/js/main.d032e5d4.js",
-  "main.js.map": "static/js/main.d032e5d4.js.map",
+  "main.js": "static/js/main.6f1ebe76.js",
+  "main.js.map": "static/js/main.6f1ebe76.js.map",
   "static/media/accountant-icon.svg": "static/media/accountant-icon.71183578.svg",
   "static/media/business-icon.svg": "static/media/business-icon.9ce85884.svg",
   "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
@@ -17,7 +17,7 @@
   "static/media/spend-app.svg": "static/media/spend-app.77695961.svg",
   "static/media/spend-flow.svg": "static/media/spend-flow.fc3e25b0.svg",
   "static/media/spend-robot-card.svg": "static/media/spend-robot-card.5641ab36.svg",
-  "static/media/spend-robot-signup.png": "static/media/spend-robot-signup.5eb5387d.png",
+  "static/media/spend-robot-signup.svg": "static/media/spend-robot-signup.340733d8.svg",
   "static/media/spend-robot.svg": "static/media/spend-robot.6ccb5d82.svg",
   "static/media/splash.svg": "static/media/splash.13522830.svg",
   "static/media/talk-bubbles.svg": "static/media/talk-bubbles.0fd8258f.svg"
