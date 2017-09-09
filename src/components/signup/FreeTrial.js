@@ -11,7 +11,7 @@ export function FreeTrial({match}) {
     <div className="component">
       <div className="row">
         <div className="col">
-          <img className="img-fluid d-block mx-auto mt-5 mb-3" src={require("../../images/signup/spend-robot-signup.png")} alt="" />
+          <img className="img-fluid d-block mx-auto mt-5 mb-3 w-50" src={require("../../images/signup/spend-robot-signup.svg")} alt="" />
           <p className="text-center">Need more info? Learn how Expend works by clicking here or contact us via our live support (bottom right).</p>
           <p className="display-4 text-center mt-3 mb-5">Please enter your details</p>
         </div>
