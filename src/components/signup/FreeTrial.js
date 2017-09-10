@@ -18,7 +18,7 @@ export function FreeTrial({match}) {
       </div>
       <div className="row">
         <div className="col">
-          <Route exact path={`${match.url}`} component={SignUpPage1} />
+          <Route exact path={match.url} component={SignUpPage1} />
           <Route path={`${match.url}/signup2`} component={SignUpPage2} />
         </div>
       </div>
